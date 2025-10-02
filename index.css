@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: black;
+    padding: 0;
 
 }
 header{
@@ -68,5 +69,6 @@ footer{
 .tercero{
     background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/06/game-of-thrones-title-card-cropped.jpg);
 }
+
 
 
