@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: black;
+
+}
+header{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px 15%;
+    border-radius: 20px;
+}
+.hero{
+    padding: 200px 50px; 
+    /* aspect-ratio: 16/10 ;  *//* 1920x1200 */
+    font-size: 3rem;
+    background-image: url(https://tumbaabierta.com/wp-content/uploads/2012/03/juego_de_tronos_1920x1200_wallpaper_0.jpg);
+    background-position: center top;
+ 
+}
+/* img{
+    filter: brightness(.5);
+    position: ;
+} */
+footer{
+    height: 1000px;
+    background-image: 
+    url(https://i.pinimg.com/736x/5e/0e/b2/5e0eb2cd4282f3e919ac40e0be8ddebb.jpg), 
+    url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/112012/untitled-1_115.png?itok=V6Z15Gvp),
+    url(https://e7.pngegg.com/pngimages/753/841/png-clipart-game-of-thrones-daenerys-targaryen-tyrion-lannister-house-lannister-logo-throne-miscellaneous-carnivoran.png);
+    background-repeat: no-repeat ;
+    background-size: 200px;
+    background-position: 200px, 300px;
+}
+
+
+
+.contenedor{
+    position: relative;
+    img{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        z-index: 1;
+        filter: brightness(.5) blur(2px);
+    }
+    p{
+        position: absolute;
+        z-index: 2;
+        color: antiquewhite;
+        font-size: 3rem;
+    }
+}
+
+.fondoFijo{
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.primero{
+    background-image: url(https://assets.turbologo.com/blog/es/2020/06/19132516/9007b04d8ac97adb43316e08b54eebd8.jpg);
+}
+
+.segundo{
+    background-image: url(https://documentdesignfall17.wordpress.com/wp-content/uploads/2017/08/game-of-thrones-logo.jpg);
+}
+
+.tercero{
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/06/game-of-thrones-title-card-cropped.jpg);
+}
+
+
